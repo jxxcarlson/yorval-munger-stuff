@@ -1,0 +1,2 @@
+ [build]
+   command = "export ELM_HOME=\"$NETLIFY_BUILD_BASE/cache/elm\" && npm install -g elm@latest-0.19.1 && npm install --no-optional && elm make src/Main.elm --output=index.html"
